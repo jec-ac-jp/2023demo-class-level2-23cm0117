@@ -1,7 +1,7 @@
 name: Submission CI
 on:
   push:
-    branches: [main]
+    branches: [master]
 jobs:
   build-with-upload-artifact:
     runs-on: ubuntu-latest
